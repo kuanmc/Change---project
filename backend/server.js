@@ -14,8 +14,7 @@ const PORT = 462;
 
 const storiesData = {
   userStories: [],
-  redditStories: [], // Optional: if you want to cache Reddit stories
-  // We'll use a Map to quickly find stories by ID for comments
+  redditStories: [], 
   storyComments: new Map(), // storyId -> array of comments
   storyLikes: new Map()
 };
@@ -259,5 +258,5 @@ app.get('/api/random-story', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+    console.log(`Server running on http://localhost:${PORT}/api/test`);
 });
