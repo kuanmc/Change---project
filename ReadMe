@@ -1,0 +1,22 @@
+README.txt
+
+Project: DoomScroll Reddit
+Author: Michelle Kuan
+Vanderbilt Email: michelle.c.kuan@vanderbilt.edu
+
+
+How to Run:
+you'll need to install the project's dependencies. Do this by opening a terminal in the main project directory and running npm install. Then, switch to the 'frontend' folder and run npm install again to grab all the necessary parts for the user interface. To get everything running, start the backend server from its folder with the command node server.js—you'll know it's working when you see a message confirming it's running. You will then need to download the video files separately. You can find them available for download on : https://vanderbilt365-my.sharepoint.com/:f:/g/personal/michelle_c_kuan_vanderbilt_edu/EgypTrPbuutEqRaYHRXN7-ABf4RaPo1M5xJ1ZGakYD5OYA?e=UteITg 
+^ this is on my vandy account so I think you need to open it with a Vanderbilt account too 
+Once downloaded, make sure the names are video1.mp4, video2.mp4, video3.mp4 and then put them in the public folder in the frontend. Finally, navigate to the 'frontend' directory and launch the development server using npm run dev. This should automatically open the application in your browser, where you can start clicking 'Next Story' and interacting with all the features.
+
+
+Reflection (<100 words):
+This project was very eyeopening and a fun project (a little crash out) to work on. 
+I haven't really done an API before so it was pretty challenging learning how to do this in a short amount of time while also wanting my ideas to work. There were a lot of things I just gave up on in the end like displaying text that would sync up with the audio. But I had a lot of fun learning how to code JavaScript and using Node/Express API.
+
+
+Feedback on Challenge:
+The prompt was such a fun prompt and very fun to work with. Maybe more time on this in the future would make it better? Very nice to do overall.
+
+
